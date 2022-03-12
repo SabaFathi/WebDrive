@@ -1,0 +1,140 @@
+html{
+    height: 100%;
+    width: 90%;
+}
+
+body{
+    width: 100%;
+    direction: ltr;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+#profile{
+    background-color: gray;
+    width: 100%;
+    direction: rtl;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    position: relative;
+    column-gap: 10px;
+}
+#avatar{
+    border-radius: 50%;
+    height: 4vw;
+    width: 4vw;
+}
+
+#path-info{
+    background-color: orange;
+    width: 100%;
+    direction: ltr;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    position: relative;
+}
+
+#drive-content{
+    background-color: rgb(150, 150, 150);
+    width: 100%;
+    direction: ltr;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+    column-gap: 10px;
+}
+#folders{
+    direction: ltr;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+.folder{
+    direction: ltr;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    row-gap: 2px;
+}
+#files{
+    direction: ltr;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+.file{
+    direction: ltr;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    row-gap: 10px;
+}
+
+#operations{
+    background-color: rgb(150, 150, 150);
+    width: 100%;
+    direction: ltr;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    column-gap: 20px;
+}
+
+label{
+    font-size: 20px;
+}
+
+.complete-ovrlap{
+    display: grid;
+    grid-template-columns: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.complete-ovrlap-item{
+    text-align: center;
+    grid-row: 1;
+    grid-column: 1;
+}
+.complete-ovrlap-hoveritem{
+    display: inline-block;
+    opacity: 0;
+    transition: 0.5s;
+    color: white;
+}
+.complete-ovrlap-hoveritem:hover{
+    opacity: 1;
+}
